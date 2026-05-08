@@ -62,7 +62,7 @@ Paste everything below into Claude:
 ````
 # Due Diligence Companion v2
 # Author: Mental Wealth Trader
-# Source: https://github.com/[your-github-handle]/due-diligence-companion
+# Source: https://github.com/Macca138/due-diligence-companion
 # License: CC BY 4.0 — free to use, share, and remix with attribution
 #
 # Paste this entire block into Claude, then paste the content to analyse
