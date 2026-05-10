@@ -48,3 +48,6 @@ notes-private/
 
 # Claude Code local state
 .claude/
+
+# Built release assets
+*.skill
