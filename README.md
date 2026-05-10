@@ -8,6 +8,16 @@ Free. CC BY 4.0 licensed.
 
 ---
 
+## Two ways to use it
+
+**As a skill (recommended for Claude Code / Claude Desktop).** Drop the [`skill/`](skill/) folder into your skills directory and Claude will load it automatically whenever you paste content for evaluation, or invoke it explicitly with "DDC" / "due diligence". The skill adds a verification layer on top of the prompt — it runs independent web searches over falsifiable claims before producing the card, and produces a compact Verdict Card by default with the full 12-section breakdown on request. See [`skill/SKILL.md`](skill/SKILL.md).
+
+**As a prompt (works anywhere Claude runs).** Copy the v2 prompt below (or from [`prompts/v2.md`](prompts/v2.md)), paste it into a fresh conversation, drop the content between the markers, and read the card. No skill installation needed.
+
+The skill and the prompt share the same analytical core — the skill just automates the verification work the prompt asks the reader to do manually.
+
+---
+
 ## What it does
 
 When you run the prompt on a piece of content, it produces a 12-section Due Diligence Card:
@@ -27,7 +37,7 @@ When you run the prompt on a piece of content, it produces a 12-section Due Dili
 
 ---
 
-## How to use it
+## How to use the prompt
 
 1. Copy the entire prompt below (or from [`prompts/v2.md`](prompts/v2.md)).
 2. Paste it into a fresh Claude conversation.
@@ -35,6 +45,15 @@ When you run the prompt on a piece of content, it produces a 12-section Due Dili
 4. Send. Read the card.
 
 Tested on Claude Sonnet and Opus. Should work on other frontier models with light adaptation.
+
+## How to install the skill
+
+The [`skill/`](skill/) folder is a portable Claude skill. Two install paths:
+
+- **Claude Code / Claude Desktop:** copy `skill/` into your skills directory (typically `~/.claude/skills/due-diligence-companion/`) and restart. The skill auto-activates on evaluative requests over pasted content or links.
+- **Claude.ai (web/mobile):** zip `skill/` and upload as a custom skill where supported.
+
+Once installed, you don't need to paste anything — just drop in a URL or pasted content and ask for a take ("DDC this", "thoughts?", "is this legit?"). The skill produces a compact Verdict Card by default; ask for "full breakdown" to get the 12-section forensic card.
 
 ---
 

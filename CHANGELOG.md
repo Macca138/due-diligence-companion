@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.1 — 2026-05-10
+
+Added a portable Claude skill version of the v2 prompt under `skill/`.
+
+- `skill/SKILL.md` — skill definition with five-phase workflow (identify input → acquire content → independent verification → analytical framework → Verdict Card / full DDC output)
+- `skill/references/verification-tactics.md` — guidance on which claims are cheap to verify and how to use web search effectively
+- `skill/references/youtube-extraction.md` — environment-aware transcript extraction priority chain
+- README updated with install instructions for the skill alongside the existing paste-the-prompt path
+
+The skill adds a verification layer the prompt lacks: it runs independent web searches over falsifiable claims before producing the card. Output defaults to a compact Verdict Card; the full 12-section breakdown is available on request.
+
 ## v2.0 — 2026-05-08
 
 Initial public release.

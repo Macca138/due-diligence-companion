@@ -45,3 +45,6 @@ env/
 draft/
 notes-private/
 *.local.md
+
+# Claude Code local state
+.claude/
