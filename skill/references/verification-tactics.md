@@ -6,6 +6,16 @@ Practical guidance on using web search effectively when running the Due Diligenc
 
 Run searches in this rough priority order. Stop when a search becomes expensive (5+ queries, no decisive answer) — leave that item on the verification checklist for the user.
 
+### Tier 0 — establish temporal context first
+
+Before any Tier 1 verification, lock down the content's as-of date (see `SKILL.md` Phase 2.5). Every Tier 1/2 search below should be interpreted against that date, not against today. If a search returns a value different from what the content claims, the next question is not "is the content wrong?" — it is "was the content correct at its publication date?".
+
+Practical:
+
+- If a numeric claim doesn't match current data, search for the claim *as of* the publication date, or look for the original primary source the author cited. If the cited source supports the figure at the time of writing, the claim is "accurate as of [date], updated since" — not "factually incorrect".
+- For fast-moving domains (AI regulation, model capabilities, government contract values, market figures, headcounts, current events), publication-date answers and current answers routinely diverge by 2x or more without any error by the author. Be especially careful in those domains not to flag stale data as factual error.
+- If the as-of date cannot be established, default to current-date evidence and note the limitation in the verification checklist rather than scoring blind.
+
 ### Tier 1 — almost free, always do
 
 These take 1 search each and resolve unambiguously. Always check them.

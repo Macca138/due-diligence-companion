@@ -8,6 +8,40 @@
 
 ---
 
+## Verdict Card output (compact format)
+
+**📊 VERDICT — Simon Willison, "Vibe coding and agentic engineering"**
+
+🟢 **Overall: 9/10 — Substantive, verifiable, normal-creator monetisation**
+Verified legitimate engineer reflecting on his own workflow shift — the analytical work here is intellectual, not forensic.
+
+**As of date:** 2026-05-06 (post publication)
+**Updated since:** No load-bearing claims have moved.
+
+**By axis**
+- Claims real:        **9/10** █████████░
+- Methodology sound:  **7/10** ███████░░░
+- Author expertise:   **10/10** ██████████
+- Reader benefit:     **8/10** ████████░░
+
+**🚩 Top flags**
+- *None material.* Sponsor banner is disclosed and topically unrelated to the post. The $10/month newsletter sits next to two decades of free public output — that asymmetry is the opposite of a funnel.
+- Generous linking to named third parties (Heavybit, Anthropic, Yglesias) and independent verification anchors (github.com/simonw, Django co-creator records, PyPI ownership) ground the author's identity outside his own work.
+
+**💰 Monetisation:** Normal-creator. Disclosed MongoDB sponsorship + $10/month curated digest via GitHub Sponsors. No affiliate, no course, no funnel.
+
+**🧠 Real pushback**
+
+The load-bearing claim is the analogy: "I'm starting to treat the agents the same way [I treat another team's library]." That analogy carries the weight of the entire argument for why it's responsible to ship code he hasn't reviewed. But it collapses on inspection — the properties that make trusting another team's library sane (public reputation, legal accountability, on-call rotations, professional consequences for shipping broken code) are exactly the properties Simon notes one paragraph earlier that the agent does not have. The post acknowledges this, then proceeds as if the analogy still holds.
+
+It doesn't. The honest version of his position would be stronger and more uncomfortable: the agent has earned *local* trust through a track record of producing competent code, but that local trust does not transfer the way human-team trust does, because the agent's behaviour next quarter is not constrained by the same forces that constrain a human team's. Treating it like another team is a category error the post papers over with a sympathetic frame. Simon flags the risk ("normalization of deviance") and then performs the deviance for the reader without proposing a mechanism to interrupt it.
+
+**Bottom line:** Engage. Take seriously his own admission that the line between vibe coding and agentic engineering is collapsing in his practice, and ask whether the "treat the agent like another team" framing actually carries the weight he asks it to. Identity and monetisation are not the question; the argument is.
+
+*Want the full 12-section forensic breakdown? Just ask.*
+
+---
+
 ## Due Diligence Card output
 
 **1. STRONGEST COUNTER-POSITION**

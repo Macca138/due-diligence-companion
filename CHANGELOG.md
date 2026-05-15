@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.2 — 2026-05-15
+
+Adds temporal-context handling and surfaces calibration outputs as Verdict Cards.
+
+- **Phase 2.5 (Establish temporal context)** added to `skill/SKILL.md`. Before verification, the skill locks down the content's publication date as the reference frame for Claims-real scoring. Stale-but-accurate facts (correct at publication, superseded since) surface as *Updated since publication* rather than as factual errors.
+- **Tier 0** added to `skill/references/verification-tactics.md` covering the same principle: a search result that diverges from the content triggers an as-of-date check before being treated as an error.
+- **Verdict Card template** in `skill/SKILL.md` gains optional `As of date:` and `Updated since:` lines below the composite score.
+- **System prompts** (`skill/SKILL.md`, `prompts/v2.md`, README copy) gain a one-sentence instruction: treat the content's publication date as the reference frame for factual claims.
+- **`examples/04-simon-willison.md`** now leads with a Verdict Card (9/10 composite) above the existing full DDC. Makes the calibration score explicitly findable for users verifying the skill's reported behaviour on legitimate content.
+
+Driven by feedback from Meriel Batterley (AI Ethics Researcher / AI Governance Specialist) after running the skill on her own AI surveillance Substack post, where current-date verification flagged a US government contract figure ($10M) as wrong when it was correct at the time of writing and sourcing.
+
 ## v2.1 — 2026-05-10
 
 Added a portable Claude skill version of the v2 prompt under `skill/`.
